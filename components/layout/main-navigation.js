@@ -7,7 +7,7 @@ import styles from './main-navigation.module.css';
 
 function MainNavigation() {
   return (
-    <header>
+    <header className={styles.header}>
       <Link href='/'>
         <a>
           <Logo />
